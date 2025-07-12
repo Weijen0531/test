@@ -1,5 +1,14 @@
 # SQL Structure Query Language 
 - 官方網站 https://neon.com/postgresql/tutorial
+## Managing Tables
+-- CREATE TABLE
+> CREATE TABLE [IF NOT EXISTS] table_name (
+   column1 datatype(length) column_constraint,
+   column2 datatype(length) column_constraint,
+   ...
+   table_constraints
+);
+> 
 
 # DDL(定義資料語言)
 **建立、修改、刪除資料庫和資料表的SQL指令類別**
